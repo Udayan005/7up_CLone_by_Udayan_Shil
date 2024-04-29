@@ -585,6 +585,8 @@ width: 100%;
 }
 
 
+
+
 @media(max-width:881px){
   .banner1{
     background-repeat: no-repeat;
@@ -1181,6 +1183,16 @@ flex-direction: row;
 @media(max-width: 452px){
 .banner1 .text h1{
   font-size: 40px;
+  margin-left: 20px;
+}
+.banner1 .text h3{
+
+  margin-left: 20px;
+}
+
+.wrapp{
+  margin-left: 40px;
+
 }
 
 .home .left a img{
@@ -1367,7 +1379,11 @@ flex-direction: row;
 
 
 }
-
+@media(max-width:313px){
+  .wrapp{
+    margin-left: 10px;
+  }
+}
 @media(max-width: 300px){
  .row2 p{
     font-size: 5px;
