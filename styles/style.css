@@ -68,6 +68,10 @@ nav .navbar a{
     top: 12px;
     
 }
+
+nav .navbar a:hover{
+  color :#23527c;
+}
 /* Navigation bar ends here */
 
 
@@ -1374,10 +1378,37 @@ flex-direction: row;
 .home .right{
   display: block;
   width: 100%;
-
 }
-
-
+}
+@media(max-width: 386px){
+.wrapp{
+  .wrapp{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%, 25%);
+    background: #ffff;
+    width: 30%;
+  }
+  
+  .wrapp a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color:  #009e5f;
+    border: 2px solid  #009e5f;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    font-weight: 700;
+  }
+  
+}
 }
 @media(max-width:313px){
   .wrapp{
